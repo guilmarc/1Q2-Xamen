@@ -14,7 +14,7 @@ Cédrik Dubogue, un employé de la compagnie **Atlas Informatique**, à créé u
 
 Vous êtes donc embauchés afin de reprendre ce projet et de le faire fonctionner.
 
-Voici le visuel du devis du client (incluant les données générées aléatoirement) :
+Voici un exemple de visuel du devis du client :
 
 ## Liste des produits
 
