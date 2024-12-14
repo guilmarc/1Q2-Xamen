@@ -6,15 +6,16 @@ Lors de cet examen final, vous devez démontrer votre capacité à appliquer les
 
 <h1 align="Center">🖥️ Atlas Informatique 🖥️</h1>
 
-**Atlas Informatique**, une entreprise oeuvrant dans la vente rapide de matériel informatique, a besoin d'une mini-application qui affiche d'abord la liste des produits disponibles.  Comme elle veut écouler rapidement son inventaire, elle aimerait que vous puissiez gérérer un rabais entre 10% et 50% et ce, pour 10 produits sélectionnés au hasard.
+**Atlas Informatique**, une entreprise oeuvrant dans la vente rapide de matériel informatique, a besoin d'une mini-application qui affiche d'abord la liste des produits disponibles. Comme elle veut écouler rapidement son inventaire, elle aimerait que vous puissiez gérérer un rabais entre 10% et 50% et ce, pour 10 produits sélectionnés au hasard. Ensuite la mini-application conservera ces produits et ces rabais tout au long de la génération de commandes.
 
-L'entreprise souhaite ensuite pouvoir tester son système d'achat en ligne en vous demander de générer 5 commandes complètes (produits, quantité, sous-total, tps, tvq, total) avec précisément 3 ligne d'`Achat` par commande (pour simplifier les tests). Un `Achat` représente une ligne de produit dans une commande (exemple 3 exemplaires du produit au code 938475).
+L'entreprise souhaite ensuite pouvoir tester son système d'achat en ligne en vous demandant de générer 5 commandes complètes (produits, quantité, sous-total, tps, tvq, total) avec précisément 3 lignes d'`Achat` par commande (pour simplifier les tests). Un `Achat` représente une ligne de produit dans une commande (exemple: 3 exemplaires du produit au code 938475).
 
-Cédrik Dubogue, un employé de la compagnie **Atlas Informatique**, à créé une [solution C++](./_bin/atlas.zip). en y programmant l'architecture générale requise selon l'analyse effectuée par l'équipe d'architectes applicatifs.  Il vous demande donc de partir de cette solution et d'analyser d'une part le code en place.  Il a placé des étiquettes `TODO` aux endroits ou, au minimum, vous aurez à programmer afin de répondre aux besoins de son entreprise (merci pour ce petit coup de main Cédrik 😉 )
+Cédrik Dubogue, un employé de la compagnie **Atlas Informatique**, à créé une [solution C++](./_bin/atlas.zip). en y programmant l'architecture générale requise selon l'analyse effectuée par l'équipe de développement. Il vous demande donc de détuter votre travail à partir de cette solution et d'analyser le code en place. Il a placé des étiquettes `TODO` aux endroits ou, au minimum, vous aurez à programmer afin de répondre aux besoins de son entreprise (merci pour ce petit coup de main Cédrik 😉 )
 
 Vous êtes donc embauchés afin de reprendre ce projet et de le faire fonctionner.
 
 Voici le visuel du devis du client (incluant les données générées aléatoirement) :
+
 ## Liste des produits
 
 ```plaintext
@@ -131,7 +132,7 @@ Appuyez sur ESPACE pour généner les commandes...
 
 <h1 align="Center">Spécification techniques</h1>
 
-1. Placer votre nom complet sur la première ligne du fichier .cpp.
+1. Placer votre nom complet sur la première ligne du fichier `main.cpp`.
 2. Respecter le devis du client à la lettre.
 3. Respecter les normes et conventions apprises en classe.
 4. Remettre un seul fichier `.zip` contenant l'ensemble de la solution.
@@ -141,7 +142,7 @@ Appuyez sur ESPACE pour généner les commandes...
 1. Ouvrir le fichier `.csv` avec un editeur de texte afin de bien analyser la structure.
 2. Utiliser l'utilitaire `Format document on Save` afin de formater votre code au fur et à mesure.
 3. Programmer une seule fonction à la fois et la tester à l'aide du `débogueur`.
-4. Pour la signature de la fonction retournerProduitHasard(), revenir au principe de passage par valeur et par référence.
+4. Pour la signature de la fonction retournerProduitHasard(), revenir au principe de passage par valeur ou par référence.
 
 <h1 align="Center">Grille de correction</h1>
 
