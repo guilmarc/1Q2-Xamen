@@ -10,7 +10,7 @@ Lors de cet examen final, vous devez démontrer votre capacité à appliquer les
 
 L'entreprise souhaite ensuite pouvoir tester son système d'achat en ligne en vous demander de générer 5 commandes complètes (produits, quantité, sous-total, tps, tvq, total) avec précisément 3 ligne d'`Achat` par commande (pour simplifier les tests). Un `Achat` représente une ligne de produit dans une commande (exemple 3 exemplaires du produit au code 938475).
 
-Cédrik Dubogue, un employé de la compagnie **Atlas Informatique**, à créé une [solution C++](./atlas.zip). en y programmant l'architecture générale requise selon l'analyse effectuée par l'équipe d'architectes applicatifs.  Il vous demande donc de partir de cette solution et d'analyser d'une part le code en place.  Il a placé des étiquettes `TODO` aux endroits ou, au minimum, vous aurez à programmer afin de répondre aux besoins de son entreprise (merci pour ce petit coup de main Cédrik 😉 )
+Cédrik Dubogue, un employé de la compagnie **Atlas Informatique**, à créé une [solution C++](./_bin/atlas.zip). en y programmant l'architecture générale requise selon l'analyse effectuée par l'équipe d'architectes applicatifs.  Il vous demande donc de partir de cette solution et d'analyser d'une part le code en place.  Il a placé des étiquettes `TODO` aux endroits ou, au minimum, vous aurez à programmer afin de répondre aux besoins de son entreprise (merci pour ce petit coup de main Cédrik 😉 )
 
 Vous êtes donc embauchés afin de reprendre ce projet et de le faire fonctionner.
 
