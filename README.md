@@ -5,6 +5,7 @@
 Lors de cet examen final, vous devez démontrer votre capacité à appliquer les connaissances acquises en classe afin de compléter une mini-application répondant aux spécifications d'un client potentiel.
 
 <h1 align="Center">🖥️ Atlas Informatique 🖥️</h1>
+
 **Atlas Informatique**, une entreprise oeuvrant dans la vente rapide de matériel informatique, a besoin d'une mini-application qui affiche d'abord la liste des produits disponibles.  Comme elle veut écouler rapidement son inventaire, elle aimerait que vous puissiez gérérer un rabais entre 10% et 50% et ce, pour 10 produits sélectionnés au hasard.
 
 L'entreprise souhaite ensuite pouvoir tester son système d'achat en ligne en vous demander de générer 5 commandes complètes (produits, quantité, sous-total, tps, tvq, total) avec précisément 3 ligne d'`Achat` par commande (pour simplifier les tests). Un `Achat` représente une ligne de produit dans une commande (exemple 3 exemplaires du produit au code 938475).
