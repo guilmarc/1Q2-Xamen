@@ -4,13 +4,28 @@
 
 Lors de cet examen final, vous devez démontrer votre capacité à appliquer les connaissances acquises en classe afin de compléter une mini-application répondant aux spécifications d'un client potentiel.
 
+<h1 align="Center">Consignes à suivre</h1>
+
+1. 🪑 Les places seront attribuées par l'enseignant, sans exceptions.  Vous aurez du temps pour configurer l'environnement de travail à votre aise.
+1. 🖥️ L'utilisation d'un seul écran ne sera permise. Vous devrez vous assurer, en appuyant sur le bouton en dessous de l'écran secondaire, que ce dernier sera désactivé de Windows et il se fermera automatiquement.
+   > Si un deuxième écran est apperçu allumé, la personne étudiante se verra automatiquement attribuée la note de zéro.
+2. 📱 Les cellulaires doivent être fermés (pas en mode avion mais complètement fermés) et placés la boîte prévue à cet effet, en avant de la classe.
+   > Si une notification est entendue pendant l'examen, la personne étudiante se verra automatiquement attribuée la note de zéro.
+3. 🎧 Les casques d'écoutes, lunettes électroniques ou tout autre dispositif électronique devront être placés dans votre sac à dos que vous déposerez en avant de la classe en dessous du tableau.
+   > Si un appareil électronique est aperçu, la personne étudiante se verra automatiquement attribuée la note de zéro.
+4. 🚪 Sauf urgence, aucun accès à la salle de bain ne sera autorisé.
+   > Nous attendrons que toutes les personnes étudiantes aient eu le temps d'y aller avant de débuter l'examen.`
+5. ❓ Une seule question ne sera permise par personne. Assurez-vous de bien avoir lu l'énoncé avant d'interroger l'enseignant !
+5. 🖋️ Après la remise de votre solution sur Omnivox, vous devrez aller signer la feuille de confirmation de dépôt.
+   > Si une personne étudiante quitte sans signer la feuille de confirmation de dépôt, elle se verra automatiquement attribuée la note de zéro.
+
 <h1 align="Center">🖥️ Atlas Informatique 🖥️</h1>
 
-**Atlas Informatique**, une entreprise oeuvrant dans la vente rapide de matériel informatique, a besoin d'une mini-application qui affiche d'abord la liste des produits disponibles. Comme elle veut écouler rapidement son inventaire, elle aimerait que vous puissiez gérérer un rabais entre 10% et 50% et ce, pour 10 produits sélectionnés au hasard. Ensuite la mini-application conservera ces produits et ces rabais tout au long de la génération de commandes.
+**Atlas Informatique**, une entreprise œuvrant dans la vente rapide de matériel informatique, a besoin d'une mini-application qui affiche d'abord la liste des produits disponibles. Comme elle veut écouler rapidement son inventaire, elle aimerait que vous puissiez générer un rabais entre 10% et 50% et ce, pour 10 produits sélectionnés au hasard. Ensuite la mini-application conservera ces produits et ces rabais tout au long de la génération de commandes.
 
-L'entreprise souhaite ensuite pouvoir tester son système d'achat en ligne en vous demandant de générer 5 commandes complètes (produits, quantité, sous-total, tps, tvq, total) avec précisément 3 lignes d'`Achat` par commande (pour simplifier les tests). Un `Achat` représente une ligne de produit dans une commande (exemple: 3 exemplaires du produit au code 938475).
+L'entreprise souhaite ensuite pouvoir tester son système d'achat en ligne en vous demandant de générer 5 commandes complètes (produits, quantité, sous-total, TPS, TVQ, total) avec précisément 3 lignes d'`Achat` par commande (pour simplifier les tests). Un `Achat` représente une ligne de produit dans une commande (exemple: 3 exemplaires du produit au code 938475).
 
-Cédrik Dubogue, un employé de la compagnie **Atlas Informatique**, à créé une [solution C++](./_bin/atlas.zip). en y programmant l'architecture générale requise selon l'analyse effectuée par l'équipe de développement. Il vous demande donc de détuter votre travail à partir de cette solution et d'analyser le code en place. Il a placé des étiquettes `TODO` aux endroits ou, au minimum, vous aurez à programmer afin de répondre aux besoins de son entreprise (merci pour ce petit coup de main Cédrik 😉 )
+Cédrik Dubogue, un employé de la compagnie **Atlas Informatique**, à créé une [solution C++](./_bin/atlas.zip). en y programmant l'architecture générale requise selon l'analyse effectuée par l'équipe de développement. Il vous demande donc de débuter votre travail à partir de cette solution et d'analyser le code en place. Il a placé des étiquettes `TODO` aux endroits où, au minimum, vous aurez à programmer afin de répondre aux besoins de son entreprise (merci pour ce petit coup de main Cédrik 😉 )
 
 Vous êtes donc embauchés afin de reprendre ce projet et de le faire fonctionner.
 
@@ -143,6 +158,7 @@ Appuyez sur ESPACE pour généner les commandes...
 2. Utiliser l'utilitaire `Format document on Save` afin de formater votre code au fur et à mesure.
 3. Programmer une seule fonction à la fois et la tester à l'aide du `débogueur`.
 4. Pour la signature de la fonction retournerProduitHasard(), revenir au principe de passage par valeur ou par référence.
+5. Aurez-vous besoin d'une fonction de recherche pour aller chercher des information d'un `Produit` à partir d'un `Achat` ? 😉
 
 <h1 align="Center">Grille de correction</h1>
 
@@ -158,6 +174,7 @@ Appuyez sur ESPACE pour généner les commandes...
 | 08  | L'implémentation de la fonction genererCommandes s'assure qu'il y ait pas deux fois le même produit dans deux lignes d'`Achat` différentes. | 1   |
 | 09  | Utilisation adécoite et fonctionnelle du code déjà en place écrit par Cédrik Dubogue.                                                       | 3   |
 | 10  | Respect des normes et des conventions de code apprises en classe.                                                                           | 10  |
+| P  | Non-respect d'un des éléments de l'énoncé (par présence)                                                                          | -1  |
 |     |
 |     | TOTAL                                                                                                                                       | 40  |
 |     |
