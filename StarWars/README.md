@@ -1,4 +1,4 @@
-<h1 align="Center">Démonstration des compétences (1Q2-Programmation structurée)</h1>
+# Récupération de cours échoué (1Q2-Programmation structurée)
 
 ## Contexte
 
@@ -9,16 +9,16 @@ Lors de cet exercice, vous devez démontrer votre capacité à appliquer les con
 **Intergalactik**, une entreprise œuvrant dans l'astronomie, a besoin de compléter une [mini-application (déjà entamée par Cédrik Dubogue)](./_bin/starwars.zip) qui affichera une liste d'étoiles incluant de l'information sur leurs planètes.
 
 Afin de compléter cette démonstration avec succès vous devrez :
+
 1. Lire la liste des étoiles du fichier CSV des d'étoiles.
 2. Lire la liste des planètes du fichier CSV des planètes.
 3. Ajouter les planètes aux étoiles correcpondantes en utilisant le `code` d'étoile.
 4. Ajouter une fonction à la struct des planètes qui retournera le volume de l'étoile en Km³.
-5. Afficher à l'écran la liste des étoiles et de leurs planètes en conformité avec l'affichage présentée plyus bas.
+5. Afficher à l'écran la liste des étoiles et de leurs planètes en conformité avec l'affichage présentée plus bas.
 
 ## Formule du volume d'une sphère
+
 # $V = \frac{{4\pi r^3 }}{3}$.
-
-
 
 ## Affichage des étoiles et leurs planètes
 
