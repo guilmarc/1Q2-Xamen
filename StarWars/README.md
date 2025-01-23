@@ -1,8 +1,3 @@
-# Récupération de cours échoué (1Q2-Programmation structurée)
-
-## Contexte
-
-Lors de cet exercice, vous devez démontrer votre capacité à appliquer les connaissances acquises en classe afin de compléter une mini-application répondant aux spécifications d'un client potentiel.
 
 <h1 align="Center">🌟 StarWars 🌟</h1>
 
